@@ -439,13 +439,13 @@ MMCME2_BASE #(
 MMCME2_BASE_inst (
     // Clock Outputs: 1-bit (each) output: User configurable clock outputs
     .CLKOUT0(clkout0),     // 1-bit output: CLKOUT0
-    .CLKOUT0B(clkout0b),   // 1-bit output: Inverted CLKOUT0
+    .CLKOUT0B(),   // 1-bit output: Inverted CLKOUT0
     .CLKOUT1(new_clk),     // 1-bit output: new_clk (our new clock)
-    .CLKOUT1B(clkout1b),   // 1-bit output: Inverted CLKOUT1
+    .CLKOUT1B(),   // 1-bit output: Inverted CLKOUT1
     .CLKOUT2(clkout2),     // 1-bit output: CLKOUT2
-    .CLKOUT2B(clkout2b),   // 1-bit output: Inverted CLKOUT2
+    .CLKOUT2B(),   // 1-bit output: Inverted CLKOUT2
     .CLKOUT3(clkout3),     // 1-bit output: CLKOUT3
-    .CLKOUT3B(clkout3b),   // 1-bit output: Inverted CLKOUT3
+    .CLKOUT3B(),   // 1-bit output: Inverted CLKOUT3
     .CLKOUT4(clkout4),     // 1-bit output: CLKOUT4
     .CLKOUT5(clkout5),     // 1-bit output: CLKOUT5
     .CLKOUT6(clkout6),     // 1-bit output: CLKOUT6
